@@ -1,23 +1,26 @@
 import React from 'react';
 import './Card.css';
+import { tsPropertySignature } from '@babel/types';
 import CardBanner from './CardBanner.js';
-import CardContent from './CardContent.js'
+import CardContent from './CardContent.js';
 
 
-function CardContainer(){
+function CardContainer() {
 
-  return(
-     <div>
-    <CardBanner/>
-    <CardContent />
+  // function onItemClick(){
+  //     console.log('It was clicked');
+  //     window.addEventListener('load' , ()=> {
 
+  //     });
+  // }
 
-     </div>
-      
-  )
-
+  return (
+    <div>
+      <CardBanner />
+      <CardContent />
+    </div>
+  );
 }
 
 
-
-export default CardContainer
+export default CardContainer;

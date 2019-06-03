@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
-import HeaderContainer from './components/HeaderComponents/HeaderContainer.js';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer.js'
 import CardContainer from './components/CardComponents/CardContainer.js'
+import FooterContainer from './components/FooterComponents/Footer.js'
 
 
 const App = () => (
 
     <div className="wrapper">
-    
-    <HeaderContainer/>
-    <CardContainer/>
+     <HeaderContainer/>
+     <a href="https://www.reactjs.org"><CardContainer/></a>
+     <FooterContainer/>
 
     </div>
     
