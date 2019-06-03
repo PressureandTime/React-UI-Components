@@ -15,7 +15,7 @@ function CardContainer() {
   // }
 
   return (
-    <div>
+    <div className="card-Container">
       <CardBanner />
       <CardContent />
     </div>
