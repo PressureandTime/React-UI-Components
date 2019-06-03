@@ -7,7 +7,7 @@ function HeaderTitle() {
   return (
 
       <header>
-          <h3>Lambda School @LamdaSchool, 26 jan</h3>
+          <h2>Lambda School @LamdaSchool, 26 jan</h2>
         </header>
 
   );
