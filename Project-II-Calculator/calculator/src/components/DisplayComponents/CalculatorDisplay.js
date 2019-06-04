@@ -4,7 +4,7 @@ import './Display.css';
 function CalculatorDisplay(){
   
     return(
-   <div>
+   <div className="display">
        <input type="text" name="display"/>
    </div>
     )

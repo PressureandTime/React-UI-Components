@@ -4,7 +4,7 @@ import './Button.css';
 
 function NumberButton(props){
     return(
-        <div>
+        <div className="number-wrapper">
             
             <input type="button" value="7"/>
             <input type="button" value="8"/>
