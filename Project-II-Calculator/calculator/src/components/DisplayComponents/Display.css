@@ -8,3 +8,9 @@
     width: 400px;
     height: 80px;
 }
+
+input[name*="display"]{
+    background-color: black;
+    color: white;
+    
+}
