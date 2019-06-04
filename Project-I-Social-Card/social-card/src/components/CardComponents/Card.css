@@ -1,1 +1,18 @@
 /* All styles for your Card Components live here */
+
+.card-Container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.card-content p {
+    font-size: 16px;
+}
